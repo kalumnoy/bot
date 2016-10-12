@@ -33,8 +33,20 @@ if (!is_null($events['events'])) {
            				 "text":"Hello, user"
       				},
        				{
-           				"type":"text",
-          				"text":"May I help you?"
+           				"type":"ping",
+          				"text":"pong"
+      				},
+       				{
+           				"type":"สบายดีไหม",
+          				"text":"ไม่ค่อยสบาย เครียด ตังเหลือเยอะ"
+      				},
+       				{
+           				"type":"ตำรวจ",
+          				"text":"police"
+      				},
+       				{
+           				"type":"...",
+          				"text":"แดกจุดไปสิมึง"
       				}
 					      ],
 			];
