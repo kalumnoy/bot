@@ -29,24 +29,8 @@ if (!is_null($events['events'])) {
 			$data = [
 				'replyToken' => $replyToken,
 				'messages' => [
-				{    	 "type":"text",
-           				 "text":"Hello, user"
-      				},
-       				{
-           				"type":"ping",
-          				"text":"pong"
-      				},
-       				{
-           				"type":"สบายดีไหม",
-          				"text":"ไม่ค่อยสบาย เครียด ตังเหลือเยอะ"
-      				},
-       				{
-           				"type":"ตำรวจ",
-          				"text":"police"
-      				},
-       				{
-           				"type":"...",
-          				"text":"แดกจุดไปสิมึง"
+				{    	 "type":"ping",
+           				 "text":"pong"
       				}
 					      ],
 			];
